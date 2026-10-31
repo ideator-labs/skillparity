@@ -1,0 +1,9 @@
+{
+  "name": "skillparity-js-adapters",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@skill-tools/core": "0.2.2",
+    "@tanstack/ai-skills": "1.0.0"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "c05-yaml-comment",
+  "skill_dir": "receipts",
+  "expect": {
+    "load": "yes",
+    "name": "receipts",
+    "description": "Read C# receipts and summarise them.",
+    "body": "# Receipts\n\nRead the receipts and summarise them."
+  },
+  "note": "' #' starts a YAML comment. 'C#' does not."
+}

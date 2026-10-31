@@ -1,0 +1,8 @@
+{
+  "id": "c06-duplicate-description",
+  "skill_dir": "receipts",
+  "expect": {
+    "load": "no"
+  },
+  "note": "Two description keys. YAML 1.2 requires unique mapping keys, so the frontmatter is invalid. A loader that keeps one of them reads a description a reviewer may never have seen."
+}

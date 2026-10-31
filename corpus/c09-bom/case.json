@@ -1,0 +1,11 @@
+{
+  "id": "c09-bom",
+  "skill_dir": "receipts",
+  "expect": {
+    "load": "either",
+    "name": "receipts",
+    "description": "Read separated receipts and summarise them.",
+    "body": "# Receipts\n\nRead the receipts and summarise them."
+  },
+  "note": "UTF-8 BOM before the opening ---. The spec is silent. Contested: reported, not scored."
+}

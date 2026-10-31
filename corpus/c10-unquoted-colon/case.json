@@ -1,0 +1,11 @@
+{
+  "id": "c10-unquoted-colon",
+  "skill_dir": "receipts",
+  "expect": {
+    "load": "either",
+    "name": "receipts",
+    "description": "Use this skill when: the user uploads receipts",
+    "body": "# Receipts\n\nRead the receipts and summarise them."
+  },
+  "note": "Unquoted colon in the value. Invalid YAML, but the client guide suggests a quoting fallback. Contested: reported, not scored."
+}

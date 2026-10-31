@@ -1,0 +1,11 @@
+{
+  "id": "c14-dashes-line-in-block",
+  "skill_dir": "receipts",
+  "expect": {
+    "load": "yes",
+    "name": "receipts",
+    "description": "Read receipts split by a line of dashes:\n---\nthen summarise them.",
+    "body": "# Receipts\n\nRead the receipts and summarise them."
+  },
+  "note": "An indented --- inside a literal block is content, not the closing delimiter. The closing delimiter is a line that is exactly ---."
+}

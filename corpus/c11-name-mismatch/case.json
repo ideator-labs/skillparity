@@ -1,0 +1,11 @@
+{
+  "id": "c11-name-mismatch",
+  "skill_dir": "receipts",
+  "expect": {
+    "load": "yes",
+    "name": "receipt-reader",
+    "description": "Read separated receipts and summarise them.",
+    "body": "# Receipts\n\nRead the receipts and summarise them."
+  },
+  "note": "name does not match the directory. The client guide says warn and load."
+}

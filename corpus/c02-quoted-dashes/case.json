@@ -1,0 +1,11 @@
+{
+  "id": "c02-quoted-dashes",
+  "skill_dir": "receipts",
+  "expect": {
+    "load": "yes",
+    "name": "receipts",
+    "description": "Read --- separated receipts",
+    "body": "# Receipts\n\nRead the receipts and summarise them."
+  },
+  "note": "Quoted description containing ---. Valid YAML. Reported as agentskills/agentskills#633."
+}

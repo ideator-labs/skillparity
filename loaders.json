@@ -1,0 +1,32 @@
+[
+  {
+    "id": "skills-ref",
+    "what": "Agent Skills reference library (Python), read_properties + parse_frontmatter",
+    "version": "agentskills/agentskills@69ef37e9424c0a7ea9dd2293b559e43ec8176379",
+    "cmd": ["uv", "run", "--no-project", "--quiet", "--with", "skills-ref @ git+https://github.com/agentskills/agentskills@69ef37e9424c0a7ea9dd2293b559e43ec8176379#subdirectory=skills-ref", "python", "adapters/skills-ref/read.py", "{corpus}"]
+  },
+  {
+    "id": "tanstack",
+    "what": "TanStack AI skills runtime loader (TypeScript), parseSkill",
+    "version": "@tanstack/ai-skills@1.0.0",
+    "cmd": ["node", "adapters/js/read.mjs", "tanstack", "{corpus}"]
+  },
+  {
+    "id": "skill-tools",
+    "what": "skill-tools linter/parser (TypeScript, gray-matter), parseSkillContent",
+    "version": "@skill-tools/core@0.2.2",
+    "cmd": ["node", "adapters/js/read.mjs", "skill-tools", "{corpus}"]
+  },
+  {
+    "id": "flexigpt",
+    "what": "FlexiGPT agentskills-go runtime (Go, goccy/go-yaml), document.ParseSkillDocument",
+    "version": "github.com/flexigpt/agentskills-go@v0.22.0",
+    "cmd": ["go", "run", "./adapters/flexigpt", "{corpus}"]
+  },
+  {
+    "id": "hivemind",
+    "what": "Hivemind OS hive-skills parser (Rust, serde_yaml), parse_skill_md, vendored verbatim",
+    "version": "hivemind-os/hivemind@4b99f027662b9ef08b18e563d9012d6767248dfc crates/hive-skills/src/parser.rs",
+    "cmd": ["adapters/hivemind/target/release/hivemind-read", "{corpus}"]
+  }
+]

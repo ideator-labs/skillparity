@@ -1,0 +1,11 @@
+{
+  "id": "c04-single-quote-escape",
+  "skill_dir": "receipts",
+  "expect": {
+    "load": "yes",
+    "name": "receipts",
+    "description": "Read the user's receipts and summarise them.",
+    "body": "# Receipts\n\nRead the receipts and summarise them."
+  },
+  "note": "Single-quoted scalar. In YAML '' is one apostrophe."
+}

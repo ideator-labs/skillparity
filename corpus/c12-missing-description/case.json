@@ -1,0 +1,8 @@
+{
+  "id": "c12-missing-description",
+  "skill_dir": "receipts",
+  "expect": {
+    "load": "no"
+  },
+  "note": "No description. The client guide says skip."
+}

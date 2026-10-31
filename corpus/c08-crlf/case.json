@@ -1,0 +1,11 @@
+{
+  "id": "c08-crlf",
+  "skill_dir": "receipts",
+  "expect": {
+    "load": "yes",
+    "name": "receipts",
+    "description": "Read separated receipts and summarise them.",
+    "body": "# Receipts\n\nRead the receipts and summarise them."
+  },
+  "note": "Windows CRLF line endings. Compared after CRLF to LF normalization."
+}
